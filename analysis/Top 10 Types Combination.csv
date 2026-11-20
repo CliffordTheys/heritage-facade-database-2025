@@ -1,0 +1,21 @@
+combination_label,roof_type,window_type,door_type,shopfront_type,frequency,percentage
+Top Combination 1,R01,W01,D02,S02,89,14.10
+Top Combination 2,R01,W02,D02,S02,64,10.14
+Top Combination 3,R02,W01,D02,S02,51,8.08
+Top Combination 4,R02,W02,D02,S02,31,4.91
+Top Combination 5,R01,W01,D02,S01,28,4.44
+Top Combination 6,R01,W01,D01,S02,27,4.28
+Top Combination 7,R01,W01,D01,S03,27,4.28
+Top Combination 8,R01,W01,D02,S03,25,3.96
+Top Combination 9,R02,W01,D01,S03,21,3.33
+Top Combination 10,R01,W02,D02,S01,17,2.69
+Least Combination 10,R04,W02,D01,S02,1,0.16
+Least Combination 9,R03,W02,D01,S01,1,0.16
+Least Combination 8,R01,W01,D03,S02,1,0.16
+Least Combination 7,R04,W01,D01,S01,1,0.16
+Least Combination 6,R01,W02,D03,S03,1,0.16
+Least Combination 5,R04,W02,D01,S03,1,0.16
+Least Combination 4,R02,W01,D03,S02,1,0.16
+Least Combination 3,R02,W01,D03,S03,2,0.32
+Least Combination 2,R03,W02,D01,S02,2,0.32
+Least Combination 1,R02,W02,D01,S01,2,0.32

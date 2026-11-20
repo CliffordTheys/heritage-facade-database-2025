@@ -1,0 +1,14 @@
+type,code,total,percentage
+Door,D01,193,30.59
+Door,D02,421,66.72
+Door,D03,17,2.69
+Roof,R01,367,58.16
+Roof,R02,201,31.85
+Roof,R03,35,5.55
+Roof,R04,28,4.44
+Shopfront,S01,110,17.43
+Shopfront,S02,344,54.52
+Shopfront,S03,177,28.05
+Window,W01,356,56.42
+Window,W02,200,31.70
+Window,W03,75,11.89
