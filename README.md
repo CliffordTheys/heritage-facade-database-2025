@@ -2,9 +2,15 @@
 
 Facade element data for historic buildings in three towns: Arita, Shiota and Kashima (Saga Prefecture, Japan). The data is a CSV export of the PostgreSQL database `heritage-facade-database-v1` (Neon), exported on 2026-11-20.
 
+## Repository structure
+
+- `data/`: CSV export of the database (below)
+- `images/`: facade images (to be added)
+- `analysis/`: analysis CSV files for the paper (to be added)
+
 ## Files
 
-All files are in `data/`. Each has 631 rows (one per building) plus a header.
+All files in this section are in `data/`. Each has 631 rows (one per building) plus a header.
 
 | File | Columns | Description |
 |---|---|---|
