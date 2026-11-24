@@ -5,8 +5,8 @@ Facade element data for historic buildings in three towns: Arita, Shiota and Kas
 ## Repository structure
 
 - `data/`: CSV export of the database (below)
-- `images/`: facade images (to be added)
-- `analysis/`: analysis CSV files for the paper (to be added)
+- `images/`: facade images (upload in progress)
+- `analysis/`: analysis CSV files for the paper
 
 ## Files
 
@@ -14,7 +14,7 @@ All files in this section are in `data/`. Each has 631 rows (one per building) p
 
 | File | Columns | Description |
 |---|---|---|
-| `building_summary.csv` | `building_id`, `address`, `image_url` | One row per building. `address` is the town name only. |
+| `facade_attribute_database.csv` | `building_id`, `address`, `roof_type`, `window_type`, `door_type`, `shopfront_type`, `image_url` | One row per building with all four element types. `address` is the town name only. Also stored in the database as table `facade_attribute_database`. |
 | `door_distribution.csv` | `door_id`, `building_id`, `door_type`, `count` | Door type per building |
 | `roof_distribution.csv` | `roof_id`, `building_id`, `roof_type`, `count` | Roof type per building |
 | `shopfront_distribution.csv` | `shopfront_id`, `building_id`, `shopfront_type`, `count` | Shopfront type per building |
@@ -28,7 +28,7 @@ All files in this section are in `data/`. Each has 631 rows (one per building) p
 
 ## Notes
 
-- `image_url` points to facade images stored in Neon object storage. These links may not be publicly accessible. Check them before relying on them in the paper.
+- `image_url` points to externally hosted facade images (Supabase storage). Copies are being added to `images/`. Check that the links work before relying on them in the paper.
 - The `neon_auth` tables of the source database (users, sessions) are not exported.
 
 ## Citation
