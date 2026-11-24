@@ -5,7 +5,7 @@ Facade element data for historic buildings in three towns: Arita, Shiota and Kas
 ## Repository structure
 
 - `data/`: CSV export of the database (below)
-- `images/`: facade images (upload in progress)
+- `images/`: partial copy of the facade images (the full set is on Hugging Face, see Notes)
 - `analysis/`: analysis CSV files for the paper
 
 ## Files
@@ -28,7 +28,7 @@ All files in this section are in `data/`. Each has 631 rows (one per building) p
 
 ## Notes
 
-- `image_url` points to externally hosted facade images (Supabase storage). Copies are being added to `images/`. Check that the links work before relying on them in the paper.
+- `image_url` points to the facade images (631 PNG files) hosted in the Hugging Face dataset [CliffordTheys/heritage-facade-images-2025](https://huggingface.co/datasets/CliffordTheys/heritage-facade-images-2025). The full image set is on Hugging Face only.
 - The `neon_auth` tables of the source database (users, sessions) are not exported.
 
 ## Citation
