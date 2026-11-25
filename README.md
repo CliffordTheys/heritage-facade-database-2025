@@ -55,4 +55,5 @@ One facade image per building (631 PNG files) is hosted in the Hugging Face data
 
 ## Contact
 
-[Name and email]
+Clifford Theys
+clifford.theys@gmail.com
