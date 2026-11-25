@@ -2,7 +2,7 @@
 
 Facade element data for 631 historic buildings in three towns in Saga Prefecture, Japan: Arita, Shiota and Kashima. Each building is described by one type code for its roof, windows, doors and shopfront.
 
-**Associated paper:** [Paper title], [journal], under review. (Full citation will be added after publication.)
+**Associated paper:** [Paper title], City and Build Environments, under review. (Full citation will be added after publication.)
 
 ## Repository structure
 
