@@ -28,7 +28,7 @@ Each file has 631 rows (one per building) plus a header row.
 ## Identifiers and codes
 
 - `building_id` links all tables. The prefix gives the town: `art` = Arita (397 buildings), `ksm` = Kashima (199), `sht` = Shiota (35).
-- Type codes: roofs `R01`–`R04`, windows `W01`–`W03`, doors `D01`–`D03`, shopfronts `S01`–`S03`. The definition of each code is given in the paper ([Table X]).
+- Type codes: roofs `R01`–`R04`, windows `W01`–`W03`, doors `D01`–`D03`, shopfronts `S01`–`S03`. The definition of each code is given in the paper ([Table 3]).
 - `count` is 1 in every row (one type per building per element).
 
 ## Analysis files (`analysis/`)
