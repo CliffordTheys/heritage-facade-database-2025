@@ -47,11 +47,11 @@ One facade image per building (631 PNG files) is hosted in the Hugging Face data
 
 ## License
 
-[Add data license, for example CC BY 4.0, and image license or usage terms.]
+[Add data license]
 
 ## Citation
 
-[Add citation and DOI after publication.]
+[Citation and DOI after publication.]
 
 ## Contact
 
